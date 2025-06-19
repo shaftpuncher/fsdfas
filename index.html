@@ -8,8 +8,13 @@
 </head>
 <body>
   <h1>Press when needed</h1>
-  <button id="btn" onclick="butt()">Press</button>
+  <div class="container">
+  <button id="btn" onclick="butt()" >Motivation</button>
+  <button id="streak" onclick="streakAdd()">streak: <span id="streakCount">0</span> Days</button>
+  <button id="reset" onclick="resetAdd()">reset</button>
   <h2>Amount pressed: <span id="count">0</span></h2>
+  <h2>resets: <span id="resetCount">0</span></h2>
+  </div>
 
   <audio src="Persist through exhaustion.mp3" id="audio"></audio>
   <script src="index.js"></script>

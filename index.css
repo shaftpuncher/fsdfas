@@ -4,13 +4,36 @@ body{
   background-size: cover;
   color: white;
 }
-button{
-  margin: 200px;
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#btn{
+    margin: 100px 200px 10px 200px;
   padding: 100px;
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0.646);
   color: white;
   border: none;
   border-radius: 20px;
-  
+}
+#streak{
+  margin: 0 200px 0px 200px;
+  padding: 100px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.646);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+#reset{
+  padding: 30px;
+  margin: 10px 300px 0 300px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.646);
+  color: white;
+  border: none;
+  border-radius: 20px;
 }
